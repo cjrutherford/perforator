@@ -7,6 +7,9 @@ Perforator is a TypeScript-based library designed to measure and observe the per
 - [Perforator](#perforator)
   - [Table of Contents](#table-of-contents)
   - [Installation](#installation)
+- [Perforator](#perforator-1)
+  - [Table of Contents](#table-of-contents-1)
+  - [Installation](#installation-1)
   - [Usage](#usage)
     - [Performance Measurement](#performance-measurement)
     - [Observers](#observers)
@@ -21,22 +24,25 @@ To install the dependencies, run:
 ```sh
 npm install
 ```
-Sure, here is a README for your project:
 
-```markdown
 # Perforator
 
 Perforator is a TypeScript-based library designed to measure and observe the performance of your application. It leverages the Performance API to provide detailed insights into the execution times of various parts of your code.
 
 ## Table of Contents
 
-- [Installation](#installation)
-- [Usage](#usage)
-  - [Performance Measurement](#performance-measurement)
-  - [Observers](#observers)
-  - [Visitors](#visitors)
-- [Contributing](#contributing)
-- [License](#license)
+- [Perforator](#perforator)
+  - [Table of Contents](#table-of-contents)
+  - [Installation](#installation)
+- [Perforator](#perforator-1)
+  - [Table of Contents](#table-of-contents-1)
+  - [Installation](#installation-1)
+  - [Usage](#usage)
+    - [Performance Measurement](#performance-measurement)
+    - [Observers](#observers)
+    - [Visitors](#visitors)
+  - [Contributing](#contributing)
+  - [License](#license)
 
 ## Installation
 
@@ -101,5 +107,4 @@ Contributions are welcome! Please open an issue or submit a pull request.
 
 ## License
 
-This project is licensed under the ISC License.
-```
+This project is licensed under the MIT License.
