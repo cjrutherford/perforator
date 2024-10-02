@@ -1,0 +1,13 @@
+{
+    "name": "perf-observe",
+    "version": "1.0.2",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/cjrutherford/perforator.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "MIT",
+    "description": "A small collection of tooling around the nodejs `perf-hooks` module to provide a pluggable way to collect performance metrics."
+}

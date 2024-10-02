@@ -1,4 +1,4 @@
-import { TimeSeries, TimeSeriesVisitor } from ".";
+import TimeSeries, { TimeSeriesVisitor } from ".";
 
 export class ConsoleVisitor<T> implements TimeSeriesVisitor<T> {
     visit(timeSeries: TimeSeries<T>): void {
