@@ -41,8 +41,9 @@ function measurePerformance(target: any, propertyKey: string, descriptor: Proper
  * @param observerCallback - The callback function that will be invoked when performance entries are recorded.
  */
 const createObserver = (measures: EntryType[], observerCallback: PerformanceObserverCallback) => {
-    const obs = new PerformanceObserver(observerCallback);
+    const obs: PerformanceObserver = new PerformanceObserver(observerCallback);
     obs.observe({ entryTypes: [...measures, 'measure'] });
+    return obs;
 }
 
 export { measurePerformance, createObserver, PerformanceObserverCallback, PerformanceEntry, EntryType, performance };
